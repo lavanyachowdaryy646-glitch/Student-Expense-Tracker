@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+button {
+  padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.dashboard .box {
+    background-color: white;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.dashboard .box h3 {
+    margin: 5px;
+}
+
+.dashboard .box p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.expense-card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.expense-card h3 {
+    margin-top: 0;
+}
+
+.expense-card p {
+    margin: 8px 0;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    input, select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
